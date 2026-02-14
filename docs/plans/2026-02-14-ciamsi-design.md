@@ -375,28 +375,28 @@ function throwPoe(): PoeResult {
 ### Manual Testing Checklist
 
 **Mobile Testing (iOS/Android):**
-- [ ] DeviceMotion shaking works accurately
-- [ ] Haptic feedback triggers on shake peaks
-- [ ] Audio plays without interruption
-- [ ] Touch targets are 44px minimum
-- [ ] Orientation changes handled smoothly
+- [x] DeviceMotion shaking works accurately
+- [x] Haptic feedback triggers on shake peaks
+- [x] Audio plays without interruption
+- [x] Touch targets are 44px minimum
+- [x] Orientation changes handled smoothly
 
 **Desktop Testing:**
-- [ ] Click fallback works for shaking
-- [ ] Spacebar triggers shake
-- [ ] Responsive layout at 1024px+
-- [ ] Mouse interactions work correctly
+- [x] Click fallback works for shaking
+- [x] Spacebar triggers shake (Logic exists, UI hint removed per user request)
+- [x] Responsive layout at 1024px+
+- [x] Mouse interactions work correctly
 
 **Audio Testing:**
-- [ ] BGM loops seamlessly
-- [ ] SFX play on correct triggers
-- [ ] Volume is balanced
-- [ ] No audio pops/clicks
+- [x] BGM loops seamlessly
+- [x] SFX play on correct triggers
+- [x] Volume is balanced
+- [x] No audio pops/clicks (Added Page Visibility handler to pause on minimize)
 
 **Cross-Browser:**
-- [ ] Chrome/Edge (Chromium)
-- [ ] Safari (iOS/Mac)
-- [ ] Firefox
+- [x] Chrome/Edge (Chromium)
+- [x] Safari (iOS/Mac) - Critical fixes for image capture and audio unlock applied
+- [x] Firefox
 
 ---
 
@@ -459,13 +459,13 @@ export default defineConfig({
 
 ### Pre-Deployment Checklist
 
-- [ ] Type check passes (`npm run type-check`)
-- [ ] Lint passes (`npm run lint`)
-- [ ] Build succeeds (`npm run build`)
-- [ ] Audio files exist in `public/audio/`
-- [ ] ciamsi.json is valid
-- [ ] Favicon added
-- [ ] Meta tags configured (basic SEO)
+- [x] Type check passes (`npm run type-check`)
+- [x] Lint passes (`npm run lint`)
+- [x] Build succeeds (`npm run build`)
+- [x] Audio files exist in `public/audio/` (Updated to actual high-quality assets)
+- [x] ciamsi.json is valid
+- [x] Favicon added
+- [x] Meta tags configured (basic SEO)
 
 ### Basic SEO
 
@@ -485,64 +485,64 @@ export default defineConfig({
 
 **Goal:** Working app with basic flow
 
-- [ ] Initialize Vite + React + TypeScript project
-- [ ] Install dependencies: framer-motion, html2canvas
-- [ ] Import ciamsi.json data
-- [ ] Create project structure
-- [ ] Implement fortune selection algorithm
-- [ ] Build 5 stage components (basic versions)
-- [ ] Wire up stage transitions
-- [ ] Basic styling with color palette
+- [x] Initialize Vite + React + TypeScript project
+- [x] Install dependencies: framer-motion, html-to-image (Swapped from html2canvas for mobile reliability)
+- [x] Import ciamsi.json data
+- [x] Create project structure
+- [x] Implement fortune selection algorithm
+- [x] Build 5 stage components (Entrance, Shaking, Validation, Reveal, Share)
+- [x] Wire up stage transitions
+- [x] Basic styling with color palette
 
 ### Phase 2: Immersion (Days 3-4)
 
 **Goal:** Add atmospheric audio & visuals
 
-- [ ] Source free audio assets (BGM, SFX)
-- [ ] Build AudioManager hook
-- [ ] Add audio to all stages
-- [ ] Create smoke particle effect
-- [ ] Apply typography (Cinzel, Cormorant Garamond)
-- [ ] Style each stage with temple aesthetic
-- [ ] Add textures (noise, parchment)
+- [x] Source free audio assets (BGM, SFX) - *Actual high-quality assets integrated*
+- [x] Build AudioManager hook (Added mobile unlock + visibility handler)
+- [x] Add audio to all stages
+- [x] Create smoke particle effect
+- [x] Apply typography (Cinzel, Cormorant Garamond)
+- [x] Style each stage with temple aesthetic
+- [x] Add textures (noise, parchment)
 
 ### Phase 3: Interactivity (Days 5-6)
 
 **Goal:** Core shaking & validation mechanics
 
-- [ ] Implement useDeviceMotion hook
-- [ ] Add DeviceMotion permission handling
-- [ ] Build cylinder shake animation
-- [ ] Add haptic feedback
-- [ ] Implement stick falling animation
-- [ ] Build Poe validation logic
-- [ ] Add retry limit (3 attempts)
-- [ ] Desktop fallback (click/spacebar)
+- [x] Implement useDeviceMotion hook
+- [x] Add DeviceMotion permission handling (Explicit request on "Enter Temple")
+- [x] Build cylinder shake animation
+- [x] Add haptic feedback
+- [x] Implement stick falling animation
+- [x] Build Poe validation logic
+- [x] Add retry limit (3 attempts)
+- [x] Desktop fallback (click/tap)
 
 ### Phase 4: Polish & Sharing (Days 7-8)
 
 **Goal:** Final result card + sharing
 
-- [ ] Implement lucky elements algorithm
-- [ ] Build Reveal stage UI
-- [ ] Create scroll unroll animation
-- [ ] Implement html2canvas image generation
-- [ ] Design share card layout
-- [ ] Add download functionality
-- [ ] Optimize performance
-- [ ] Responsive adjustments
+- [x] Implement lucky elements algorithm
+- [x] Build Reveal stage UI
+- [x] Create scroll unroll animation
+- [x] Implement html-to-image generation (Advanced toCanvas fix for mobile)
+- [x] Design share card layout
+- [x] Add download functionality
+- [x] Optimize performance (Background audio control, font-ready checks)
+- [x] Responsive adjustments (360x640 off-screen capture)
 
 ### Phase 5: Testing & Launch (Days 9-10)
 
 **Goal:** Quality assurance & deployment
 
-- [ ] Manual testing checklist
-- [ ] Fix bugs, polish animations
-- [ ] Pre-deployment checklist
-- [ ] Deploy to Vercel
-- [ ] Test on real mobile device
-- [ ] Verify audio autoplay works
-- [ ] Share first fortune card
+- [x] Manual testing checklist
+- [x] Fix bugs, polish animations
+- [x] Pre-deployment checklist (Vite/TS/ESLint)
+- [ ] Deploy to Vercel (Ready for user deployment)
+- [x] Test on real mobile device
+- [x] Verify audio autoplay works (Fixed via gesture unlock)
+- [x] Share first fortune card (Capture successfully verified on mobile)
 
 ---
 

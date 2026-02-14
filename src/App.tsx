@@ -7,6 +7,7 @@ import { Validation } from './components/stages/Validation'
 import { Reveal } from './components/stages/Reveal'
 import { Share } from './components/stages/Share'
 import { useAudioManager } from './hooks/useAudioManager'
+import { useDeviceMotion } from './hooks/useDeviceMotion'
 import { fortunes } from './data/ciamsi'
 import './styles/index.css'
 
@@ -14,8 +15,17 @@ function App() {
   const [currentStage, setCurrentStage] = useState<Stage>('entrance')
   const [fortuneData, setFortuneData] = useState<Fortune | null>(null)
   const audio = useAudioManager()
+  const deviceMotion = useDeviceMotion()
 
-  const handleEnter = () => {
+  const handleEnter = async () => {
+    // Request motion permission (needed for iOS)
+    if (deviceMotion.isSupported) {
+      await deviceMotion.requestPermission()
+    }
+
+    // Initialize/unlock audio on mobile
+    await audio.initialize()
+
     audio.playBGM()
     audio.playSFX('gong')
     setCurrentStage('shaking')

@@ -32,14 +32,24 @@
   margin-bottom: 2rem;
 }
 
-.card-capture-area {
-  transform: scale(0.8);
+/* Hidden container for image capture */
+.capture-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 360px;
+  height: 640px;
+  z-index: -1;
+  /* Keep in render tree but behind everything */
+  opacity: 1;
+  visibility: visible;
+  overflow: visible;
+  pointer-events: none;
 }
 
-@media (min-width: 768px) {
-  .card-capture-area {
-    transform: scale(1);
-  }
+.capture-container .fortune-card {
+  transform: none !important;
+  box-shadow: none !important;
 }
 
 .share-actions {
@@ -88,14 +98,17 @@
 .fortune-card {
   width: 360px;
   height: 640px;
-  background: linear-gradient(135deg, var(--color-maroon) 0%, #5a0000 100%);
-  border: 8px solid var(--color-gold);
+  background-color: #800000;
+  /* Fallback */
+  background: linear-gradient(135deg, #800000 0%, #5a0000 100%);
+  border: 8px solid #D4AF37;
   border-radius: 8px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  color: #F5E6D3;
 }
 
 .fortune-card::before {
@@ -109,43 +122,43 @@
 .card-header {
   text-align: center;
   margin-bottom: 1rem;
-  border-bottom: 2px solid var(--color-gold);
+  border-bottom: 2px solid #D4AF37;
   padding-bottom: 1rem;
 }
 
 .card-traditional {
   font-size: 1rem;
-  color: var(--color-gold);
+  color: #D4AF37;
   margin-bottom: 0.3rem;
 }
 
 .card-title {
-  font-family: var(--font-display);
+  font-family: 'Cinzel', serif;
   font-size: 1.5rem;
-  color: var(--color-cream);
+  color: #F5E6D3;
 }
 
 .card-number {
-  font-family: var(--font-display);
+  font-family: 'Cinzel', serif;
   font-size: 2.5rem;
-  color: var(--color-gold);
+  color: #D4AF37;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .card-fortune-title {
-  font-family: var(--font-display);
+  font-family: 'Cinzel', serif;
   font-size: 1.3rem;
-  color: var(--color-cream);
+  color: #F5E6D3;
   text-align: center;
   margin-bottom: 0.5rem;
   line-height: 1.3;
 }
 
 .card-grade {
-  font-family: var(--font-display);
+  font-family: 'Cinzel', serif;
   font-size: 1rem;
-  color: var(--color-gold);
+  color: #D4AF37;
   text-align: center;
   margin-bottom: 1.5rem;
   padding: 0.5rem;
@@ -163,7 +176,7 @@
 
 .card-verse p {
   font-size: 0.95rem;
-  color: var(--color-cream);
+  color: #F5E6D3;
   text-align: center;
   line-height: 1.8;
   margin: 0;
@@ -186,9 +199,9 @@
 }
 
 .card-lucky-item span {
-  font-family: var(--font-display);
+  font-family: 'Cinzel', serif;
   font-size: 0.8rem;
-  color: var(--color-gold);
+  color: #D4AF37;
 }
 
 .card-footer {
@@ -199,6 +212,6 @@
 
 .card-date {
   font-size: 0.8rem;
-  color: var(--color-gold);
+  color: #D4AF37;
   opacity: 0.7;
 }

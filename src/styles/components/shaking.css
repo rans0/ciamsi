@@ -73,3 +73,53 @@
   color: var(--color-gold);
   opacity: 0.7;
 }
+
+.shake-hint {
+  font-size: 0.9rem;
+  opacity: 0.6;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.desktop-hint {
+  font-size: 0.9rem;
+  color: var(--color-cream);
+  opacity: 0.5;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+/* Progress Bar */
+.shake-progress-container {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.shake-progress-bar {
+  flex: 1;
+  height: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 175, 55, 0.3);
+}
+
+.shake-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-gold), #ffd700, var(--color-gold));
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.5);
+  transition: width 0.3s ease-out;
+}
+
+.shake-progress-text {
+  font-size: 0.9rem;
+  color: var(--color-gold);
+  font-weight: 600;
+  min-width: 40px;
+  text-align: right;
+}
