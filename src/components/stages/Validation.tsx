@@ -74,12 +74,12 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
     }
 
     if (attempts >= maxAttempts) {
-      return `The ancestors accept your intent (${attempts}/${maxAttempts} attempts). Read your fortune.`
+      return 'The ancestors accept your intent. Read your fortune.'
     }
 
     return poeResult === 'xiao-bei'
-      ? `Not yet confirmed (${attempts}/${maxAttempts}). Tap the bowl to throw again.`
-      : `The spirits say wait (${attempts}/${maxAttempts}). Tap the bowl to throw again.`
+      ? 'Not yet confirmed. Tap the bowl to throw again.'
+      : 'The spirits say wait. Tap the bowl to throw again.'
   }
 
   return (
@@ -134,7 +134,7 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           }}
           tabIndex={0}
           role="button"
-          aria-label={hasRevealed ? 'Fortune revealed' : poeResult ? `Throw Poe again (${attempts}/${maxAttempts})` : 'Throw Poe blocks'}
+          aria-label={hasRevealed ? 'Fortune revealed' : poeResult ? 'Throw Poe again' : 'Throw Poe blocks'}
           aria-live="polite"
           aria-atomic="true"
         >
