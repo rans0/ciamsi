@@ -27,3 +27,8 @@ export function getFortuneGrade(fortune: Fortune): FortuneGrade {
 
   return 'medium'
 }
+
+export function isGoodFortune(fortune: Fortune): boolean {
+  const grade = getFortuneGrade(fortune)
+  return grade === 'supreme' || grade === 'superior' || grade === 'medium'
+}
