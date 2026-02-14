@@ -74,12 +74,12 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
     }
 
     if (attempts >= maxAttempts) {
-      return 'The ancestors accept your intent. Read your fortune.'
+      return `The ancestors accept your intent (${attempts}/${maxAttempts} attempts). Read your fortune.`
     }
 
     return poeResult === 'xiao-bei'
-      ? 'Not yet confirmed. Throw again.'
-      : 'The spirits say wait. Throw once more.'
+      ? `Not yet confirmed (${attempts}/${maxAttempts}). Tap the bowl to throw again.`
+      : `The spirits say wait (${attempts}/${maxAttempts}). Tap the bowl to throw again.`
   }
 
   return (
@@ -114,7 +114,10 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          {!hasRevealed ? 'The spirits must confirm this answer. Throw the Poe blocks.' : 'Revealing your fortune...'}
+          {!hasRevealed ? (poeResult
+            ? getResultMessage()
+            : 'The spirits must confirm this answer. Tap the bowl to throw the Poe blocks.'
+          ) : 'Revealing your fortune...'}
         </motion.p>
 
         <motion.div
@@ -131,7 +134,7 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           }}
           tabIndex={0}
           role="button"
-          aria-label={hasRevealed ? 'Fortune revealed' : 'Throw Poe blocks'}
+          aria-label={hasRevealed ? 'Fortune revealed' : poeResult ? `Throw Poe again (${attempts}/${maxAttempts})` : 'Throw Poe blocks'}
           aria-live="polite"
           aria-atomic="true"
         >
@@ -168,7 +171,7 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           )}
         </motion.div>
 
-        {poeResult && (
+        {poeResult && !hasRevealed && (
           <motion.div
             key={poeResult + attempts}
             className="result-message"
@@ -178,29 +181,6 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           >
             {getResultMessage()}
           </motion.div>
-        )}
-
-        {!hasRevealed && !poeResult && (
-          <motion.button
-            className="throw-button"
-            onClick={throwPoe}
-            disabled={isThrowing}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            {isThrowing ? 'Throwing...' : 'Throw Poe'}
-          </motion.button>
-        )}
-
-        {poeResult && poeResult !== 'valid' && attempts < maxAttempts && !hasRevealed && (
-          <motion.button
-            className="retry-button"
-            onClick={throwPoe}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-          >
-            Try Again ({attempts}/{maxAttempts})
-          </motion.button>
         )}
       </div>
     </motion.div>

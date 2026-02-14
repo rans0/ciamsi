@@ -169,32 +169,6 @@
   }
 }
 
-/* Buttons */
-.throw-button,
-.retry-button {
-  font-family: var(--font-display);
-  font-size: 1.2rem;
-  padding: 1rem 2.5rem;
-  background: linear-gradient(135deg, var(--color-gold) 0%, #b8962e 100%);
-  color: var(--color-maroon);
-  border: 2px solid var(--color-gold);
-  border-radius: 4px;
-  cursor: pointer;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.throw-button:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.retry-button {
-  background: transparent;
-  color: var(--color-gold);
-  border-color: var(--color-gold);
-}
-
 /* Keyboard Focus */
 .bowl-container:focus-visible {
   outline: 3px solid var(--color-gold);
