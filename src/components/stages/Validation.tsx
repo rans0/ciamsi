@@ -9,16 +9,77 @@ interface ValidationProps {
   onValidated: () => void
 }
 
+const MIN_ATTEMPTS = 3
+const MAX_ATTEMPTS = 20
+
+type PoeResult = 'valid' | 'xiao-bei' | 'no-bei'
+
 export function Validation({ fortuneNumber, fortuneData, onValidated }: ValidationProps) {
+  const [attempts, setAttempts] = useState(0)
+  const [poeResult, setPoeResult] = useState<PoeResult | null>(null)
+  const [isThrowing, setIsThrowing] = useState(false)
   const [hasRevealed, setHasRevealed] = useState(false)
 
+  const maxAttempts = useMemo(
+    () => Math.floor(Math.random() * (MAX_ATTEMPTS - MIN_ATTEMPTS + 1)) + MIN_ATTEMPTS,
+    []
+  )
   const shouldFlipBowl = useMemo(() => isGoodFortune(fortuneData), [fortuneData])
   const prefersReducedMotion = useReducedMotion()
 
-  const handleReveal = () => {
-    if (hasRevealed) return
-    setHasRevealed(true)
-    setTimeout(() => onValidated(), 1500)
+  const throwPoe = () => {
+    if (isThrowing || hasRevealed) return
+
+    setIsThrowing(true)
+    const newAttempts = attempts + 1
+    setAttempts(newAttempts)
+
+    // Simulate throw animation
+    setTimeout(() => {
+      const block1 = Math.random() < 0.5 ? 'flat' : 'round'
+      const block2 = Math.random() < 0.5 ? 'flat' : 'round'
+
+      let result: PoeResult
+      if (block1 !== block2) {
+        result = 'valid'
+      } else if (block1 === 'flat') {
+        result = 'xiao-bei'
+      } else {
+        result = 'no-bei'
+      }
+
+      setPoeResult(result)
+      setIsThrowing(false)
+
+      // Auto-validate after max attempts or if valid
+      if (result === 'valid') {
+        setTimeout(() => {
+          setHasRevealed(true)
+          setTimeout(() => onValidated(), 1500)
+        }, 800)
+      } else if (newAttempts >= maxAttempts) {
+        setTimeout(() => {
+          setHasRevealed(true)
+          setTimeout(() => onValidated(), 2000)
+        }, 1000)
+      }
+    }, 800)
+  }
+
+  const getResultMessage = () => {
+    if (!poeResult) return null
+
+    if (poeResult === 'valid') {
+      return 'Your fortune is confirmed!'
+    }
+
+    if (attempts >= maxAttempts) {
+      return 'The ancestors accept your intent. Read your fortune.'
+    }
+
+    return poeResult === 'xiao-bei'
+      ? 'Not yet confirmed. Throw again.'
+      : 'The spirits say wait. Throw once more.'
   }
 
   return (
@@ -53,7 +114,7 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
         >
-          The spirits have selected your fortune. Tap to reveal.
+          {!hasRevealed ? 'The spirits must confirm this answer. Throw the Poe blocks.' : 'Revealing your fortune...'}
         </motion.p>
 
         <motion.div
@@ -61,16 +122,16 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          onClick={handleReveal}
+          onClick={throwPoe}
           onKeyDown={(e) => {
             if (e.key === 'Enter' || e.key === ' ') {
               e.preventDefault()
-              handleReveal()
+              throwPoe()
             }
           }}
           tabIndex={0}
           role="button"
-          aria-label="Tap to reveal fortune"
+          aria-label={hasRevealed ? 'Fortune revealed' : 'Throw Poe blocks'}
           aria-live="polite"
           aria-atomic="true"
         >
@@ -78,20 +139,20 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
             className="bowl-pair"
             animate={{
               rotateX: hasRevealed && shouldFlipBowl && !prefersReducedMotion ? 180 : 0,
-              opacity: hasRevealed ? 1 : 0.9
+              opacity: hasRevealed ? 1 : 0.9,
             }}
-            transition={{ duration: prefersReducedMotion ? 0 : 0.8, ease: "easeInOut" }}
+            transition={{ duration: prefersReducedMotion ? 0 : 0.8, ease: 'easeInOut' }}
             style={{ transformStyle: 'preserve-3d' }}
           >
             <motion.div
               className="bowl-poe bowl-poe-left"
-              animate={hasRevealed ? { scale: 1, y: 0 } : { scale: 0.95, y: 5 }}
-              transition={{ delay: hasRevealed ? 0.2 : 0 }}
+              animate={isThrowing ? { y: [-10, -100, 10] } : hasRevealed ? { scale: 1, y: 0 } : { scale: 0.95, y: 5 }}
+              transition={{ duration: isThrowing ? 0.8 : 0.2 }}
             />
             <motion.div
               className="bowl-poe bowl-poe-right"
-              animate={hasRevealed ? { scale: 1, y: 0 } : { scale: 0.95, y: 5 }}
-              transition={{ delay: hasRevealed ? 0.2 : 0 }}
+              animate={isThrowing ? { y: [-10, -100, 10] } : hasRevealed ? { scale: 1, y: 0 } : { scale: 0.95, y: 5 }}
+              transition={{ duration: isThrowing ? 0.8 : 0.2 }}
             />
           </motion.div>
 
@@ -107,15 +168,39 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           )}
         </motion.div>
 
-        {!hasRevealed && (
-          <motion.p
-            className="tap-hint"
+        {poeResult && (
+          <motion.div
+            key={poeResult + attempts}
+            className="result-message"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+          >
+            {getResultMessage()}
+          </motion.div>
+        )}
+
+        {!hasRevealed && !poeResult && (
+          <motion.button
+            className="throw-button"
+            onClick={throwPoe}
+            disabled={isThrowing}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {isThrowing ? 'Throwing...' : 'Throw Poe'}
+          </motion.button>
+        )}
+
+        {poeResult && poeResult !== 'valid' && attempts < maxAttempts && !hasRevealed && (
+          <motion.button
+            className="retry-button"
+            onClick={throwPoe}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.8 }}
           >
-            Tap the bowl to reveal your fortune
-          </motion.p>
+            Try Again ({attempts}/{maxAttempts})
+          </motion.button>
         )}
       </div>
     </motion.div>
