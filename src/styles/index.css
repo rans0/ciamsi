@@ -1,3 +1,6 @@
+@import './components/stage-controller.css';
+@import './components/entrance.css';
+
 :root {
   color-scheme: dark;
   --color-maroon: #800000;

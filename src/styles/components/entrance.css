@@ -1,0 +1,184 @@
+/* Entrance Stage */
+.entrance-stage {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center, var(--color-maroon) 0%, var(--color-black) 100%);
+}
+
+.entrance-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  max-width: 600px;
+}
+
+/* Temple Gate */
+.temple-gate {
+  margin-bottom: 3rem;
+}
+
+.temple-title {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 8vw, 5rem);
+  color: var(--color-gold);
+  text-shadow:
+    0 0 20px rgba(212, 175, 55, 0.5),
+    0 0 40px rgba(212, 175, 55, 0.3),
+    2px 2px 4px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+  animation: titleGlow 3s ease-in-out infinite;
+}
+
+@keyframes titleGlow {
+  0%, 100% {
+    text-shadow:
+      0 0 20px rgba(212, 175, 55, 0.5),
+      0 0 40px rgba(212, 175, 55, 0.3),
+      2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  50% {
+    text-shadow:
+      0 0 30px rgba(212, 175, 55, 0.7),
+      0 0 60px rgba(212, 175, 55, 0.5),
+      2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+}
+
+.temple-subtitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-cream);
+  letter-spacing: 0.2em;
+  opacity: 0.9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Entrance Prompt */
+.entrance-prompt {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--color-cream);
+  line-height: 1.8;
+  margin-bottom: 3rem;
+  opacity: 0.95;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  font-style: italic;
+}
+
+/* Enter Button */
+.enter-button {
+  font-family: var(--font-display);
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  color: var(--color-gold);
+  background: transparent;
+  border: 2px solid var(--color-gold);
+  padding: 1rem 3rem;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  box-shadow:
+    0 0 10px rgba(212, 175, 55, 0.3),
+    inset 0 0 10px rgba(212, 175, 55, 0.1);
+}
+
+.enter-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.enter-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.enter-button:hover {
+  box-shadow:
+    0 0 20px rgba(212, 175, 55, 0.5),
+    inset 0 0 20px rgba(212, 175, 55, 0.2);
+}
+
+.enter-button:active {
+  transform: scale(0.95);
+}
+
+/* Smoke Effect */
+.smoke-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  background:
+    radial-gradient(ellipse at 20% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 50%, rgba(212, 175, 55, 0.05) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 80%, rgba(245, 230, 211, 0.03) 0%, transparent 40%);
+  animation: smokeFloat 8s ease-in-out infinite;
+}
+
+@keyframes smokeFloat {
+  0%, 100% {
+    opacity: 0.6;
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.05);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .entrance-content {
+    padding: 1.5rem;
+  }
+
+  .temple-gate {
+    margin-bottom: 2rem;
+  }
+
+  .entrance-prompt {
+    margin-bottom: 2rem;
+  }
+
+  .enter-button {
+    padding: 0.875rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .entrance-content {
+    padding: 1rem;
+  }
+
+  .temple-gate {
+    margin-bottom: 1.5rem;
+  }
+
+  .entrance-prompt {
+    margin-bottom: 1.5rem;
+  }
+
+  .enter-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.875rem;
+  }
+}
