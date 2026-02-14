@@ -4,7 +4,6 @@ import { Fortune } from '../../types/fortune'
 import { isGoodFortune } from '../../utils/fortune'
 
 interface ValidationProps {
-  fortuneNumber: number
   fortuneData: Fortune
   onValidated: () => void
 }
@@ -14,7 +13,7 @@ const MAX_ATTEMPTS = 20
 
 type PoeResult = 'valid' | 'xiao-bei' | 'no-bei'
 
-export function Validation({ fortuneNumber, fortuneData, onValidated }: ValidationProps) {
+export function Validation({ fortuneData, onValidated }: ValidationProps) {
   const [attempts, setAttempts] = useState(0)
   const [poeResult, setPoeResult] = useState<PoeResult | null>(null)
   const [isThrowing, setIsThrowing] = useState(false)
@@ -104,7 +103,6 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           animate={{ scale: 1 }}
           transition={{ delay: 0.3, type: 'spring' }}
         >
-          <div className="stick-number">#{fortuneNumber}</div>
           <div className="stick-title">{fortuneData.title_english}</div>
         </motion.div>
 

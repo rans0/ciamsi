@@ -64,7 +64,6 @@ function App() {
         {currentStage === 'validation' && fortuneData && (
           <Validation
             key="validation"
-            fortuneNumber={fortuneData.number}
             fortuneData={fortuneData}
             onValidated={handleValidated}
           />
