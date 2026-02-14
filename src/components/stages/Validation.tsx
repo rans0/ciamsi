@@ -170,18 +170,6 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
             </motion.div>
           )}
         </motion.div>
-
-        {poeResult && !hasRevealed && (
-          <motion.div
-            key={poeResult + attempts}
-            className="result-message"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-          >
-            {getResultMessage()}
-          </motion.div>
-        )}
       </div>
     </motion.div>
   )
