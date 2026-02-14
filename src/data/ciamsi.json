@@ -1,0 +1,1307 @@
+{
+  "source": "Traditional Chinese Fortune Telling - Guanyin Oracle (觀音靈簽) and Classical Fortune Sticks",
+  "description": "A collection of 100 fortune readings based on traditional Chinese oracle systems, combining historical references and philosophical wisdom",
+  "total_entries": 100,
+  "fortunes": [
+    {
+      "number": 1,
+      "title_mandarin": "開天闢地",
+      "title_english": "Opening of Heaven and Earth",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "The sign of heaven and earth opening, all things begin anew.\nAuspicious days bring ripened fruits along the way.\nThose loyal and virtuous shall rise in status.\nProsperity and joy will accompany the entire journey.",
+      "interpretation": {
+        "general": "This is a sign of supreme fortune. All plans will proceed smoothly and successfully.",
+        "business": "New ventures will flourish rapidly, profits await on the horizon.",
+        "romance": "Harmonious relationships bloom, an auspicious time for marriage.",
+        "health": "Excellent health, chronic ailments will heal completely."
+      }
+    },
+    {
+      "number": 2,
+      "title_mandarin": "姜太公遇文王",
+      "title_english": "Jiang Taigong Meets King Wen",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Fishing by the Wei River with patience profound.\nA wise king recognizes talent without a sound.\nYour time has come, no longer wait in vain.\nGreat opportunities arrive like gentle rain.",
+      "interpretation": {
+        "general": "Recognition and reward for your talents are imminent. Patience brings great returns.",
+        "business": "A powerful partnership or mentor will elevate your enterprise.",
+        "romance": "Someone of high caliber appreciates your true worth.",
+        "health": "Recovery is steady, maintain your current regimen."
+      }
+    },
+    {
+      "number": 3,
+      "title_mandarin": "董永遇仙",
+      "title_english": "Dong Yong Meets the Immortal",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Filial piety touches the heavens above.\nDivine assistance comes wrapped in love.\nDebts will be cleared, burdens made light.\nHeaven rewards those who do what's right.",
+      "interpretation": {
+        "general": "Your sincere efforts will receive unexpected divine assistance.",
+        "business": "Help arrives from unexpected sources, debts can be settled.",
+        "romance": "A destined connection brings happiness beyond measure.",
+        "health": "Miraculous improvement, maintain faith and positive attitude."
+      }
+    },
+    {
+      "number": 4,
+      "title_mandarin": "玉兔望月",
+      "title_english": "Jade Rabbit Gazes at the Moon",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "The rabbit looks up at the moon so bright.\nWhat it seeks remains just out of sight.\nPatience and timing are the keys you need.\nWait for the right moment to proceed.",
+      "interpretation": {
+        "general": "Goals are achievable but require perfect timing. Do not rush.",
+        "business": "Opportunities exist but are not yet ripe. Prepare thoroughly.",
+        "romance": "The one you admire notices you, but needs more time.",
+        "health": "Stable condition, avoid excessive strain or stress."
+      }
+    },
+    {
+      "number": 5,
+      "title_mandarin": "孔明借東風",
+      "title_english": "Kongming Borrows the East Wind",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Strategic wisdom commands the very wind.\nImpossible tasks bow to a brilliant mind.\nWhen heaven and earth align with your plan.\nVictory is certain for the wise man.",
+      "interpretation": {
+        "general": "Intelligence and strategy will overcome all obstacles.",
+        "business": "Bold plans succeed through clever execution and timing.",
+        "romance": "Take initiative with confidence, success is assured.",
+        "health": "Strong vitality, your energy overcomes any weakness."
+      }
+    },
+    {
+      "number": 6,
+      "title_mandarin": "漁翁得利",
+      "title_english": "The Fisherman's Profit",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Two birds fight while fisherman stands by.\nWhen others clash, your fortune multiplies.\nRemain neutral, watch with patient eyes.\nThe wise benefit while others struggle and strive.",
+      "interpretation": {
+        "general": "Stay neutral in conflicts, opportunities arise from others' disputes.",
+        "business": "Profit from market disruptions, but avoid taking sides.",
+        "romance": "Do not involve yourself in love triangles, wait patiently.",
+        "health": "Avoid stress from others' problems, maintain peace."
+      }
+    },
+    {
+      "number": 7,
+      "title_mandarin": "蘇秦六國封相",
+      "title_english": "Su Qin Becomes Prime Minister of Six States",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Eloquence and wisdom open every door.\nSix kingdoms bow to diplomatic lore.\nYour talents shine in negotiation's art.\nSuccess beyond your dreams is set to start.",
+      "interpretation": {
+        "general": "Multiple opportunities for advancement present themselves simultaneously.",
+        "business": "Expand boldly, multiple ventures all prove successful.",
+        "romance": "Many admirers surround you, choose wisely.",
+        "health": "Excellent vitality, your energy inspires others."
+      }
+    },
+    {
+      "number": 8,
+      "title_mandarin": "八仙過海",
+      "title_english": "Eight Immortals Cross the Sea",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Each uses their unique skill to cross.\nDiversity in methods brings no loss.\nYour special talent is the key.\nSuccess comes through being truly free.",
+      "interpretation": {
+        "general": "Trust your unique abilities, unconventional methods work best.",
+        "business": "Innovation and creativity lead to breakthrough success.",
+        "romance": "Be yourself authentically, the right person will appreciate you.",
+        "health": "Alternative or personalized approaches to wellness succeed."
+      }
+    },
+    {
+      "number": 9,
+      "title_mandarin": "寒窗苦讀",
+      "title_english": "Diligent Study in the Cold Window",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Years of effort in the lamp's dim light.\nHardship endured through every night.\nPerseverance brings the golden day.\nSuccess rewards those who stay the way.",
+      "interpretation": {
+        "general": "Continued effort is required, but success is guaranteed eventually.",
+        "business": "Long-term investments pay off, maintain discipline.",
+        "romance": "Relationship requires work but becomes deeply rewarding.",
+        "health": "Gradual improvement through consistent healthy habits."
+      }
+    },
+    {
+      "number": 10,
+      "title_mandarin": "梅開二度",
+      "title_english": "Plum Blossoms Bloom Twice",
+      "type": "Superior Fortune (Shang)",
+      "verse": "After winter's harsh and bitter cold.\nThe plum blooms twice, a sight to behold.\nSecond chances bring renewed delight.\nWhat was lost returns in fuller might.",
+      "interpretation": {
+        "general": "A second opportunity brings even greater success than the first.",
+        "business": "Retry previous ventures with new wisdom, success follows.",
+        "romance": "Rekindled relationships or second love brings happiness.",
+        "health": "Recovery and renewed vitality after a difficult period."
+      }
+    },
+    {
+      "number": 11,
+      "title_mandarin": "守株待兔",
+      "title_english": "Waiting by the Tree Stump",
+      "type": "Poor Fortune (Xia)",
+      "verse": "Sitting idly waiting for luck to strike.\nOnce fortune smiled, but lightning hits not twice alike.\nActive effort is what you must employ.\nPassive waiting brings no lasting joy.",
+      "interpretation": {
+        "general": "Past luck cannot be repeated. Take active measures now.",
+        "business": "Old methods no longer work, innovate or stagnate.",
+        "romance": "Waiting passively will not bring love, take initiative.",
+        "health": "Cannot rely on natural healing alone, seek active treatment."
+      }
+    },
+    {
+      "number": 12,
+      "title_mandarin": "龍困淺灘",
+      "title_english": "Dragon Stranded in Shallow Waters",
+      "type": "Poor Fortune (Xia)",
+      "verse": "A mighty dragon trapped in shallow pool.\nGreat talent hindered, unable to rule.\nWait for the tide to rise once more.\nThen soar to heights as you did before.",
+      "interpretation": {
+        "general": "Temporary setback for capable person. Maintain dignity and wait.",
+        "business": "Current environment limits your potential, consider relocation.",
+        "romance": "Your worth is not recognized now, but will be soon.",
+        "health": "Feel restricted or stifled, seek change of environment."
+      }
+    },
+    {
+      "number": 13,
+      "title_mandarin": "否極泰來",
+      "title_english": "After Darkness Comes Light",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "When fortune reaches its lowest ebb.\nThe tide must turn as fate has said.\nDarkest hour before the dawn appears.\nPersevere through these final tears.",
+      "interpretation": {
+        "general": "Difficulties are ending, better times approach rapidly.",
+        "business": "Worst is over, recovery and growth begin soon.",
+        "romance": "Relationship troubles resolve, harmony returns.",
+        "health": "Turning point in illness, recovery begins now."
+      }
+    },
+    {
+      "number": 14,
+      "title_mandarin": "張良遇黃石公",
+      "title_english": "Zhang Liang Meets the Yellow Stone Elder",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Humble service to mysterious sage.\nPatience rewarded at proper age.\nSecret wisdom passed to worthy one.\nGreat destiny has just begun.",
+      "interpretation": {
+        "general": "A wise mentor or teaching transforms your path completely.",
+        "business": "Valuable guidance leads to strategic advantage.",
+        "romance": "Elder's advice or introduction leads to good match.",
+        "health": "Alternative wisdom or ancient remedy brings healing."
+      }
+    },
+    {
+      "number": 15,
+      "title_mandarin": "鯉魚跳龍門",
+      "title_english": "Carp Leaps Through Dragon Gate",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Against the current, swimming with might.\nLeaping high through the narrow gate so tight.\nTransformation complete, dragon you become.\nGlorious success has finally come.",
+      "interpretation": {
+        "general": "Major breakthrough and transformation brings elevation in status.",
+        "business": "Massive success through perseverance against odds.",
+        "romance": "Relationship transcends to new level of commitment.",
+        "health": "Complete recovery and vitality beyond previous state."
+      }
+    },
+    {
+      "number": 16,
+      "title_mandarin": "明珠出土",
+      "title_english": "Pearl Emerges from Earth",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Hidden treasure long buried deep.\nNow surfaces from earthly keep.\nYour true value will be revealed.\nRecognition and reward are sealed.",
+      "interpretation": {
+        "general": "Hidden talents or assets finally receive proper recognition.",
+        "business": "Undervalued venture suddenly gains attention and success.",
+        "romance": "Someone special finally notices your true worth.",
+        "health": "Underlying strength emerges, vitality improves dramatically."
+      }
+    },
+    {
+      "number": 17,
+      "title_mandarin": "春花秋月",
+      "title_english": "Spring Flowers and Autumn Moon",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Each season brings its perfect grace.\nBeauty appears at its proper place.\nTiming is the key to all success.\nIn harmony, find your happiness.",
+      "interpretation": {
+        "general": "Everything unfolds at the perfect time, remain patient.",
+        "business": "Seasonal business cycles work in your favor naturally.",
+        "romance": "Right person appears at exactly the right moment.",
+        "health": "Body's natural rhythms promote excellent health."
+      }
+    },
+    {
+      "number": 18,
+      "title_mandarin": "雲開見日",
+      "title_english": "Clouds Part to Reveal the Sun",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Confusion clears like morning mist.\nThe path ahead cannot be missed.\nObstacles dissolve in clarity's light.\nEverything becomes perfectly bright.",
+      "interpretation": {
+        "general": "Confusion ends, clarity brings swift progress forward.",
+        "business": "Market conditions clear, excellent time to act decisively.",
+        "romance": "Misunderstandings resolved, truth strengthens the bond.",
+        "health": "Diagnosis found, effective treatment now possible."
+      }
+    },
+    {
+      "number": 19,
+      "title_mandarin": "桃園結義",
+      "title_english": "Brotherhood in the Peach Garden",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Loyal friends unite in sacred vow.\nTogether facing what life will allow.\nTrue partnership brings strength times three.\nIn unity lies victory.",
+      "interpretation": {
+        "general": "Strong alliances and partnerships bring mutual success.",
+        "business": "Partnership or team effort multiplies results significantly.",
+        "romance": "Deep friendship evolves into lasting commitment.",
+        "health": "Support network aids recovery and wellness."
+      }
+    },
+    {
+      "number": 20,
+      "title_mandarin": "漁樵問答",
+      "title_english": "Dialogue Between Fisherman and Woodcutter",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Simple wisdom in nature's embrace.\nTwo humble men discuss life's pace.\nDetachment from worldly strife.\nBrings contentment to simple life.",
+      "interpretation": {
+        "general": "Simplicity and contentment bring more happiness than ambition.",
+        "business": "Modest steady income beats risky ventures now.",
+        "romance": "Simple genuine connection outweighs passionate intensity.",
+        "health": "Natural lifestyle and stress reduction promote wellness."
+      }
+    },
+    {
+      "number": 21,
+      "title_mandarin": "月下老人牽紅線",
+      "title_english": "Old Man Under Moon Ties Red Thread",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Destined connections made in heaven.\nRed thread of fate cannot be severed.\nTrue love arrives through divine design.\nSoulmates meet and stars align.",
+      "interpretation": {
+        "general": "Destined relationships and connections manifest powerfully.",
+        "business": "Perfect partnership or client relationship forms naturally.",
+        "romance": "Fated meeting with soulmate or life partner occurs.",
+        "health": "Find the perfect doctor or healer for your condition."
+      }
+    },
+    {
+      "number": 22,
+      "title_mandarin": "鳳凰涅槃",
+      "title_english": "Phoenix Rises from Ashes",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Through destruction comes rebirth complete.\nFrom ashes rising, never face defeat.\nStronger, wiser, blazing bright.\nTransformation brings eternal light.",
+      "interpretation": {
+        "general": "Complete transformation after crisis brings unprecedented success.",
+        "business": "Business restructuring leads to remarkable prosperity.",
+        "romance": "Relationship renewed or new love after painful ending.",
+        "health": "Full recovery and transformation to better health than before."
+      }
+    },
+    {
+      "number": 23,
+      "title_mandarin": "畫龍點睛",
+      "title_english": "Painting Dragon's Eyes",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Final touch brings work to life.\nPerfect detail cuts like knife.\nSmall addition makes great difference.\nExcellence achieved through diligence.",
+      "interpretation": {
+        "general": "One final effort or detail brings complete success.",
+        "business": "Last crucial element makes venture extremely successful.",
+        "romance": "Small gesture or commitment completes perfect relationship.",
+        "health": "Final treatment or change brings full recovery."
+      }
+    },
+    {
+      "number": 24,
+      "title_mandarin": "乘風破浪",
+      "title_english": "Riding Wind and Breaking Waves",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Sailing forward with wind behind.\nObstacles broken, new lands to find.\nCourage and skill navigate the way.\nGreat adventure begins today.",
+      "interpretation": {
+        "general": "Bold action with confidence leads to exciting success.",
+        "business": "Expansion into new markets brings excellent returns.",
+        "romance": "Adventurous approach to love brings thrilling connection.",
+        "health": "Active lifestyle and adventure boost vitality."
+      }
+    },
+    {
+      "number": 25,
+      "title_mandarin": "金玉滿堂",
+      "title_english": "Hall Filled with Gold and Jade",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Wealth and treasure overflow.\nAbundance everywhere you go.\nMaterial and spiritual riches combine.\nEvery aspect of life will shine.",
+      "interpretation": {
+        "general": "Complete prosperity in all areas of life simultaneously.",
+        "business": "Exceptional financial success and growth in all ventures.",
+        "romance": "Relationship brings both joy and material stability.",
+        "health": "Excellent health combined with resources for best care."
+      }
+    },
+    {
+      "number": 26,
+      "title_mandarin": "守得雲開見月明",
+      "title_english": "Keeping Watch Until Clouds Clear and Moon Appears",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Patient vigil through darkest night.\nFaith maintained without clear sight.\nPersistence through uncertainty's test.\nEventually brings deserved rest.",
+      "interpretation": {
+        "general": "Patience during unclear times eventually brings clarity and success.",
+        "business": "Long-term strategy requires continued faith and patience.",
+        "romance": "Relationship uncertain now but patience brings clarity.",
+        "health": "Unclear diagnosis requires patience for proper treatment."
+      }
+    },
+    {
+      "number": 27,
+      "title_mandarin": "四海昇平",
+      "title_english": "Peace Throughout the Four Seas",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Harmony reigns in every direction.\nPeace achieved through wise reflection.\nConflicts resolved on every shore.\nTranquility valued more and more.",
+      "interpretation": {
+        "general": "Universal harmony in all relationships and endeavors.",
+        "business": "Smooth operations, good relations with all partners.",
+        "romance": "Complete harmony and understanding with partner.",
+        "health": "All body systems balanced and functioning harmoniously."
+      }
+    },
+    {
+      "number": 28,
+      "title_mandarin": "三顧茅廬",
+      "title_english": "Three Visits to the Thatched Cottage",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Humble persistence wins respect.\nSincere effort has great effect.\nThose who truly show they care.\nWin loyalty beyond compare.",
+      "interpretation": {
+        "general": "Sincere persistent effort wins respect and cooperation.",
+        "business": "Patience in negotiations brings valuable partnerships.",
+        "romance": "Genuine courtship and respect win heart of beloved.",
+        "health": "Persistent search finds the right healthcare provider."
+      }
+    },
+    {
+      "number": 29,
+      "title_mandarin": "空谷幽蘭",
+      "title_english": "Orchid in Empty Valley",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Hidden beauty, fragrance pure.\nIn isolation, virtues endure.\nThough unseen by many eyes.\nTrue worth needs no disguise.",
+      "interpretation": {
+        "general": "Your worth exists regardless of recognition, maintain integrity.",
+        "business": "Quality work will eventually attract right audience.",
+        "romance": "True character attracts genuine partner when ready.",
+        "health": "Inner health more important than outer appearance."
+      }
+    },
+    {
+      "number": 30,
+      "title_mandarin": "錦上添花",
+      "title_english": "Adding Flowers to Brocade",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Good fortune compounds with more delight.\nSuccess building upon success so bright.\nOne blessing follows another near.\nProsperous momentum throughout the year.",
+      "interpretation": {
+        "general": "Success builds upon success, momentum accelerates.",
+        "business": "Profitable ventures lead to more opportunities.",
+        "romance": "Happy relationship continues to deepen and improve.",
+        "health": "Good health improves to excellent condition."
+      }
+    },
+    {
+      "number": 31,
+      "title_mandarin": "雪中送炭",
+      "title_english": "Sending Charcoal in Snow",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Help arrives when needed most.\nTrue friends appear on frozen coast.\nKindness shown in desperate hour.\nReveals genuine love and power.",
+      "interpretation": {
+        "general": "Timely assistance comes exactly when most needed.",
+        "business": "Crucial support or investment arrives at critical moment.",
+        "romance": "Partner proves loyalty during difficult times.",
+        "health": "Effective help or treatment found at crucial time."
+      }
+    },
+    {
+      "number": 32,
+      "title_mandarin": "鴻運當頭",
+      "title_english": "Great Fortune Overhead",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Luck descends like heavenly grace.\nForward motion in every space.\nOpportunities abound at every turn.\nSuccess and recognition you'll earn.",
+      "interpretation": {
+        "general": "Peak fortune period, everything succeeds effortlessly.",
+        "business": "Every venture succeeds, profits exceed expectations.",
+        "romance": "Perfect timing for commitment or deepening relationship.",
+        "health": "Peak vitality, excellent time for health improvements."
+      }
+    },
+    {
+      "number": 33,
+      "title_mandarin": "步步高升",
+      "title_english": "Rising Step by Step",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Each step forward climbs higher still.\nSteady progress through determined will.\nPromotion follows promotion clear.\nCareer ascends throughout the year.",
+      "interpretation": {
+        "general": "Steady continuous advancement in all endeavors.",
+        "business": "Consistent growth and expansion, each phase successful.",
+        "romance": "Relationship progresses naturally through stages.",
+        "health": "Gradual continuous improvement in all health markers."
+      }
+    },
+    {
+      "number": 34,
+      "title_mandarin": "破鏡重圓",
+      "title_english": "Broken Mirror Made Whole",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "What was shattered can be mended.\nSeparation can be ended.\nReconciliation heals the pain.\nBroken bonds restored again.",
+      "interpretation": {
+        "general": "Broken relationships or situations can be repaired.",
+        "business": "Failed ventures can be revived with new approach.",
+        "romance": "Separated lovers reunite, past hurts can heal.",
+        "health": "Recovery possible even from serious damage."
+      }
+    },
+    {
+      "number": 35,
+      "title_mandarin": "馬到成功",
+      "title_english": "Success Upon Horse's Arrival",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Swift as galloping steed's advance.\nVictory comes at first glance.\nEffortless achievement of your goal.\nRapid success makes you whole.",
+      "interpretation": {
+        "general": "Quick easy success without significant obstacles.",
+        "business": "Fast profitable results from new initiatives.",
+        "romance": "Relationship progresses quickly to commitment.",
+        "health": "Rapid recovery or immediate improvement."
+      }
+    },
+    {
+      "number": 36,
+      "title_mandarin": "天賜良緣",
+      "title_english": "Heaven-Granted Perfect Match",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Heaven arranges perfect pair.\nBeyond all human plan and care.\nDestined union blessed from above.\nEternal happiness in true love.",
+      "interpretation": {
+        "general": "Perfect partnerships or connections arranged by fate.",
+        "business": "Ideal business partner or opportunity appears divinely.",
+        "romance": "Perfect soulmate connection, marriage highly favored.",
+        "health": "Find ideal healthcare provider or healing method."
+      }
+    },
+    {
+      "number": 37,
+      "title_mandarin": "撥雲見日",
+      "title_english": "Pushing Clouds to See the Sun",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Active effort clears the way.\nConfusion dispersed by light of day.\nTake initiative to make things clear.\nBrightness replaces atmosphere of fear.",
+      "interpretation": {
+        "general": "Taking action brings clarity and removes obstacles.",
+        "business": "Proactive problem-solving clears path to success.",
+        "romance": "Clear communication resolves misunderstandings.",
+        "health": "Seeking answers leads to diagnosis and treatment."
+      }
+    },
+    {
+      "number": 38,
+      "title_mandarin": "春回大地",
+      "title_english": "Spring Returns to Earth",
+      "type": "Superior Fortune (Shang)",
+      "verse": "After winter's cold and gloom.\nSpring arrives with flowers in bloom.\nRenewal in every living thing.\nNew beginning that the seasons bring.",
+      "interpretation": {
+        "general": "Period of renewal and fresh starts in all areas.",
+        "business": "Market recovery, new energy in stagnant ventures.",
+        "romance": "New love or renewed passion in existing relationship.",
+        "health": "Energy returns, vitality restored fully."
+      }
+    },
+    {
+      "number": 39,
+      "title_mandarin": "福祿雙全",
+      "title_english": "Both Fortune and Status Complete",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Wealth and honor both attained.\nEvery blessing fully gained.\nMaterial and social success combine.\nIn every way, your stars align.",
+      "interpretation": {
+        "general": "Complete success in both material wealth and social standing.",
+        "business": "Financial success brings respect and influence.",
+        "romance": "Partner brings both love and improved social status.",
+        "health": "Wellness brings both vitality and improved life quality."
+      }
+    },
+    {
+      "number": 40,
+      "title_mandarin": "雁過拔毛",
+      "title_english": "Plucking Feathers from Passing Geese",
+      "type": "Poor Fortune (Xia)",
+      "verse": "Greedy hands reach out to take.\nEvery opportunity for own sake.\nExcessive taking brings future loss.\nShort-term gain at long-term cost.",
+      "interpretation": {
+        "general": "Excessive greed leads to eventual loss, practice moderation.",
+        "business": "Taking too much profit now damages future prospects.",
+        "romance": "Demanding too much pushes partner away.",
+        "health": "Overindulgence damages health, require restraint."
+      }
+    },
+    {
+      "number": 41,
+      "title_mandarin": "蛟龍得水",
+      "title_english": "Dragon Finds the Water",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Dragon returns to proper realm.\nPower and freedom overwhelm.\nIn right environment, talents soar.\nAchieve what was impossible before.",
+      "interpretation": {
+        "general": "Finding the right environment unleashes your full potential.",
+        "business": "Right market or location brings explosive growth.",
+        "romance": "Meeting right person in right circumstances.",
+        "health": "Right treatment or environment brings complete recovery."
+      }
+    },
+    {
+      "number": 42,
+      "title_mandarin": "瓜熟蒂落",
+      "title_english": "Ripe Melon Falls from Stem",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Natural timing brings completion.\nNo force needed for fruition.\nWhen truly ready, results appear.\nSuccess comes when time is near.",
+      "interpretation": {
+        "general": "Natural timing brings effortless success, don't force.",
+        "business": "Venture succeeds when fully developed, be patient.",
+        "romance": "Relationship commitment comes naturally when ready.",
+        "health": "Healing occurs at body's natural pace."
+      }
+    },
+    {
+      "number": 43,
+      "title_mandarin": "風調雨順",
+      "title_english": "Favorable Wind and Smooth Rain",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Perfect conditions for growth appear.\nEvery element cooperates here.\nNature's blessing on your endeavor.\nSuccess sustained through fair weather.",
+      "interpretation": {
+        "general": "Ideal conditions for all undertakings, excellent timing.",
+        "business": "Market conditions perfect for launching ventures.",
+        "romance": "Everything aligns favorably for relationship.",
+        "health": "Optimal conditions for healing and wellness."
+      }
+    },
+    {
+      "number": 44,
+      "title_mandarin": "鶴立雞群",
+      "title_english": "Crane Standing Among Chickens",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Your excellence cannot be hidden.\nAmong the ordinary, you're distinguished.\nNatural superiority shines bright.\nRecognition comes to light.",
+      "interpretation": {
+        "general": "Your exceptional qualities ensure recognition and elevation.",
+        "business": "Superior product or service dominates market.",
+        "romance": "You stand out attractively to discerning people.",
+        "health": "Superior health and vitality compared to peers."
+      }
+    },
+    {
+      "number": 45,
+      "title_mandarin": "一帆風順",
+      "title_english": "Smooth Sailing with Favorable Wind",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Journey proceeds without delay.\nWind and current show the way.\nNo obstacles block your path ahead.\nSuccess assured as you are led.",
+      "interpretation": {
+        "general": "Everything proceeds smoothly without complications.",
+        "business": "Projects complete ahead of schedule and under budget.",
+        "romance": "Relationship flows naturally without conflict.",
+        "health": "Treatment effective with no complications."
+      }
+    },
+    {
+      "number": 46,
+      "title_mandarin": "麻雀變鳳凰",
+      "title_english": "Sparrow Transforms into Phoenix",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Humble origin transcended far.\nFrom lowly state to brightest star.\nComplete transformation elevates.\nDestiny to greatness awaits.",
+      "interpretation": {
+        "general": "Dramatic elevation in status and circumstances.",
+        "business": "Small venture becomes major success story.",
+        "romance": "Ordinary relationship becomes extraordinary union.",
+        "health": "Complete transformation to superior health state."
+      }
+    },
+    {
+      "number": 47,
+      "title_mandarin": "柳暗花明",
+      "title_english": "Beyond Dark Willows, Bright Flowers",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Through the darkest path you roam.\nSuddenly arrive at blooming home.\nJust when hope seems nearly lost.\nDiscovery worth all previous cost.",
+      "interpretation": {
+        "general": "Breakthrough comes after period of difficulty.",
+        "business": "Solution appears just when giving up seemed likely.",
+        "romance": "Love found unexpectedly after disappointments.",
+        "health": "Recovery happens after most difficult phase."
+      }
+    },
+    {
+      "number": 48,
+      "title_mandarin": "漁人得利",
+      "title_english": "Fisherman Gains the Benefit",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "While others fight, you profit well.\nNo participation, but you excel.\nNeutral position brings advantage clear.\nBenefits come without strife or fear.",
+      "interpretation": {
+        "general": "Remaining neutral brings unexpected advantages.",
+        "business": "Avoid competition wars, focus on opportunities they create.",
+        "romance": "Don't compete for attention, attract naturally.",
+        "health": "Avoid stress of conflict, maintain peaceful state."
+      }
+    },
+    {
+      "number": 49,
+      "title_mandarin": "久旱逢甘霖",
+      "title_english": "Sweet Rain After Long Drought",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "After endless days of thirst.\nRaindrops fall to quench the worst.\nWhat was dying springs to life.\nRelief from prolonged strife.",
+      "interpretation": {
+        "general": "Long-awaited relief and renewal finally arrive.",
+        "business": "Cash flow or resources appear after difficult period.",
+        "romance": "Love arrives after long period alone.",
+        "health": "Effective treatment found after long search."
+      }
+    },
+    {
+      "number": 50,
+      "title_mandarin": "樂極生悲",
+      "title_english": "Excess Joy Produces Sorrow",
+      "type": "Poor Fortune (Xia)",
+      "verse": "Peak of happiness holds hidden risk.\nExtreme joy can change swift and brisk.\nModeration keeps fortune secure.\nExcess celebration cannot endure.",
+      "interpretation": {
+        "general": "Excessive celebration or confidence leads to problems.",
+        "business": "Overconfidence in success causes careless mistakes.",
+        "romance": "Taking relationship for granted causes problems.",
+        "health": "Overindulgence undoes health progress."
+      }
+    },
+    {
+      "number": 51,
+      "title_mandarin": "老馬識途",
+      "title_english": "Old Horse Knows the Way",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Experience guides without a map.\nWisdom fills every gap.\nSeasoned judgment leads you right.\nKnowledge accumulated brings insight.",
+      "interpretation": {
+        "general": "Past experience provides valuable guidance now.",
+        "business": "Your expertise gives competitive advantage.",
+        "romance": "Mature wisdom helps navigate relationship.",
+        "health": "Past health knowledge guides current decisions."
+      }
+    },
+    {
+      "number": 52,
+      "title_mandarin": "千里姻緣一線牽",
+      "title_english": "Thousand-Mile Marriage by Single Thread",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Distance cannot sever fate's design.\nInvisible thread makes souls combine.\nNo matter how far apart you start.\nDestiny brings union of heart.",
+      "interpretation": {
+        "general": "Destined connections overcome any obstacle or distance.",
+        "business": "Important partnership forms despite geographical separation.",
+        "romance": "Fated relationship transcends all barriers.",
+        "health": "Right healer or treatment found regardless of location."
+      }
+    },
+    {
+      "number": 53,
+      "title_mandarin": "穩紮穩打",
+      "title_english": "Steady and Solid Progress",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Step by step, foundation strong.\nRushing ahead would be wrong.\nSolid progress without flash.\nStable growth prevents crash.",
+      "interpretation": {
+        "general": "Steady methodical approach brings reliable results.",
+        "business": "Conservative strategy ensures sustainable growth.",
+        "romance": "Relationship builds on solid foundation.",
+        "health": "Gradual lifestyle changes create lasting health."
+      }
+    },
+    {
+      "number": 54,
+      "title_mandarin": "百花齊放",
+      "title_english": "Hundred Flowers Bloom Together",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Diversity creates splendid scene.\nEvery color in between.\nMultiple paths all lead to success.\nAbundance in variety, no less.",
+      "interpretation": {
+        "general": "Multiple opportunities and options all favorable.",
+        "business": "Diversification strategy brings success in all areas.",
+        "romance": "Many potential partners or relationship aspects thrive.",
+        "health": "Multiple approaches to wellness all prove beneficial."
+      }
+    },
+    {
+      "number": 55,
+      "title_mandarin": "一諾千金",
+      "title_english": "Promise Worth Thousand Gold",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Your word carries tremendous weight.\nIntegrity determines fate.\nTrust earned through promises kept.\nReputation carefully perfect.",
+      "interpretation": {
+        "general": "Your integrity and reliability bring opportunities.",
+        "business": "Reputation for reliability attracts valuable clients.",
+        "romance": "Trust and commitment strengthen relationship.",
+        "health": "Following through on health commitments brings results."
+      }
+    },
+    {
+      "number": 56,
+      "title_mandarin": "竹報平安",
+      "title_english": "Bamboo Reports Safety",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Good news travels on bamboo stalks.\nPeace and safety in all walks.\nMessages of joy arrive soon.\nGood fortune comes like harvest moon.",
+      "interpretation": {
+        "general": "Positive news and peaceful times ahead.",
+        "business": "Good reports and favorable market news.",
+        "romance": "Communication brings reassurance and happiness.",
+        "health": "Test results positive, concerns alleviated."
+      }
+    },
+    {
+      "number": 57,
+      "title_mandarin": "望梅止渴",
+      "title_english": "Imagining Plums Quenches Thirst",
+      "type": "Poor Fortune (Xia)",
+      "verse": "Imagination cannot feed the soul.\nWishful thinking cannot make you whole.\nAction needed, not just dreams.\nReality requires more than schemes.",
+      "interpretation": {
+        "general": "Dreams alone insufficient, action required.",
+        "business": "Planning phase over, implementation necessary now.",
+        "romance": "Fantasizing about love not enough, pursue actively.",
+        "health": "Positive thinking must combine with actual treatment."
+      }
+    },
+    {
+      "number": 58,
+      "title_mandarin": "花開富貴",
+      "title_english": "Flowers Bloom Bringing Wealth and Honor",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Blossoms herald prosperous days.\nSuccess arrives in countless ways.\nWealth and status both increase.\nHappiness and joy will never cease.",
+      "interpretation": {
+        "general": "Complete prosperity and honor in all aspects.",
+        "business": "Business flourishes bringing wealth and recognition.",
+        "romance": "Relationship brings joy and elevated social position.",
+        "health": "Blooming health brings vitality and happiness."
+      }
+    },
+    {
+      "number": 59,
+      "title_mandarin": "大器晚成",
+      "title_english": "Great Vessel Takes Time to Complete",
+      "type": "Medium Fortune (Zhong)",
+      "verse": "Finest works require patient years.\nMaturity arrives when time appears.\nLate success more solid stands.\nWealth built by seasoned hands.",
+      "interpretation": {
+        "general": "Success comes later but proves more lasting.",
+        "business": "Delayed success will be more substantial.",
+        "romance": "Mature love more meaningful than youthful passion.",
+        "health": "Long-term wellness program pays off eventually."
+      }
+    },
+    {
+      "number": 60,
+      "title_mandarin": "紫氣東來",
+      "title_english": "Purple Qi Comes from the East",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Auspicious energy approaches near.\nSage wisdom's presence here.\nDivine blessing from ancient source.\nHighest fortune sets new course.",
+      "interpretation": {
+        "general": "Extremely auspicious period with spiritual blessing.",
+        "business": "Unprecedented opportunity brings transformative success.",
+        "romance": "Sacred connection with deep spiritual dimension.",
+        "health": "Spiritual healing brings complete wellness."
+      }
+    },
+    {
+      "number": 61,
+      "title_mandarin": "陽光普照",
+      "title_english": "Sunlight Shines on All",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Warm light reaches every corner.\nBlessings touch each performer.\nUniversal good fortune spreads.\nSuccess in all endeavor threads.",
+      "interpretation": {
+        "general": "Widespread good fortune affects all life areas.",
+        "business": "All departments and projects succeed simultaneously.",
+        "romance": "All aspects of relationship harmonious and bright.",
+        "health": "Overall wellness in all body systems."
+      }
+    },
+    {
+      "number": 62,
+      "title_mandarin": "如魚得水",
+      "title_english": "Like Fish Finding Water",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Perfect fit in environment found.\nIn natural element, you're unbound.\nEverything flows with graceful ease.\nComfort and success come to please.",
+      "interpretation": {
+        "general": "Perfect alignment with circumstances brings natural success.",
+        "business": "Ideal market conditions for your particular strengths.",
+        "romance": "Perfect compatibility with partner.",
+        "health": "Lifestyle perfectly suited to your constitution."
+      }
+    },
+    {
+      "number": 63,
+      "title_mandarin": "五穀豐登",
+      "title_english": "Five Grains Abundant Harvest",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Abundant harvest fills the stores.\nProsperity through every door.\nHard work rewarded richly now.\nWealth accumulated by your plow.",
+      "interpretation": {
+        "general": "Hard work brings abundant material rewards.",
+        "business": "Investments and efforts yield excellent returns.",
+        "romance": "Relationship efforts produce deep satisfaction.",
+        "health": "Health investments pay off in vitality."
+      }
+    },
+    {
+      "number": 64,
+      "title_mandarin": "六六大順",
+      "title_english": "Six-Six Great Smoothness",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Double six brings fortune's favor.\nEvery endeavor to savor.\nSmooth success in all you do.\nPerfect harmony sees you through.",
+      "interpretation": {
+        "general": "Maximum auspiciousness, everything proceeds perfectly.",
+        "business": "All ventures succeed with unusual ease.",
+        "romance": "Perfect harmony and progress in relationship.",
+        "health": "Optimal health and all systems functioning ideally."
+      }
+    },
+    {
+      "number": 65,
+      "title_mandarin": "貴人相助",
+      "title_english": "Noble Person Offers Help",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Important person lends their hand.\nYour success they help to stand.\nInfluential aid appears.\nOvercome your doubts and fears.",
+      "interpretation": {
+        "general": "Influential person provides crucial assistance.",
+        "business": "Powerful mentor or investor supports your venture.",
+        "romance": "Important person introduces you to ideal partner.",
+        "health": "Excellent doctor or healer provides care."
+      }
+    },
+    {
+      "number": 66,
+      "title_mandarin": "平步青雲",
+      "title_english": "Smooth Path to Blue Clouds",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Rising high with effortless grace.\nRapid ascent to lofty place.\nNo obstacles block your way.\nSuccess increases every day.",
+      "interpretation": {
+        "general": "Rapid advancement without significant obstacles.",
+        "business": "Quick rise to industry leadership position.",
+        "romance": "Relationship elevates social status significantly.",
+        "health": "Rapid improvement to excellent health."
+      }
+    },
+    {
+      "number": 67,
+      "title_mandarin": "心想事成",
+      "title_english": "Thoughts Become Reality",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Whatever you desire comes true.\nUniverse conspires to help you.\nThoughts manifest with perfect timing.\nEvery wish needs no refining.",
+      "interpretation": {
+        "general": "Manifestation power extremely strong, desires realized.",
+        "business": "Business goals achieved exactly as envisioned.",
+        "romance": "Ideal relationship manifests as hoped.",
+        "health": "Health goals achieved through positive focus."
+      }
+    },
+    {
+      "number": 68,
+      "title_mandarin": "珠聯璧合",
+      "title_english": "Pearls and Jade Combined Perfectly",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Perfect pairing creates masterpiece.\nTwo excellences together increase.\nCombination greater than parts alone.\nUnity makes brilliance known.",
+      "interpretation": {
+        "general": "Perfect partnerships create synergy and excellence.",
+        "business": "Business merger or partnership exceptionally successful.",
+        "romance": "Perfect match, marriage highly auspicious.",
+        "health": "Treatment combination produces excellent results."
+      }
+    },
+    {
+      "number": 69,
+      "title_mandarin": "萬事如意",
+      "title_english": "Ten Thousand Things as Wished",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Everything proceeds as you desire.\nNo aspect fails to lift higher.\nComplete fulfillment in every way.\nPerfect satisfaction every day.",
+      "interpretation": {
+        "general": "Complete fulfillment in all aspects of life.",
+        "business": "All business objectives achieved perfectly.",
+        "romance": "Relationship exceeds all expectations.",
+        "health": "Perfect health and vitality achieved."
+      }
+    },
+    {
+      "number": 70,
+      "title_mandarin": "左右逢源",
+      "title_english": "Meeting Springs Left and Right",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Resources appear wherever you turn.\nSupport is constant, easy to earn.\nNo matter which path you take.\nSuccess follows for your sake.",
+      "interpretation": {
+        "general": "Abundant resources and support from all directions.",
+        "business": "Multiple revenue streams all profitable.",
+        "romance": "Support from all quarters for relationship.",
+        "health": "All health resources readily available."
+      }
+    },
+    {
+      "number": 71,
+      "title_mandarin": "錢財廣進",
+      "title_english": "Money Flows in Abundantly",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Wealth arrives from every source.\nFinancial success stays on course.\nMoney matters resolve with ease.\nProsperity grows as you please.",
+      "interpretation": {
+        "general": "Excellent financial fortune from multiple sources.",
+        "business": "High profitability and cash flow from all operations.",
+        "romance": "Partner contributes to financial stability.",
+        "health": "Financial resources available for health needs."
+      }
+    },
+    {
+      "number": 72,
+      "title_mandarin": "家和萬事興",
+      "title_english": "Family Harmony, All Things Prosper",
+      "type": "Superior Fortune (Shang)",
+      "verse": "When home is peaceful, all else thrives.\nHarmony sustains successful lives.\nFamily unity creates strong base.\nFrom which success finds its place.",
+      "interpretation": {
+        "general": "Domestic harmony creates foundation for overall success.",
+        "business": "Stable home life supports business growth.",
+        "romance": "Family approval and support strengthen relationship.",
+        "health": "Peaceful home environment promotes wellness."
+      }
+    },
+    {
+      "number": 73,
+      "title_mandarin": "時來運轉",
+      "title_english": "Time Arrives, Fortune Turns",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Waiting period comes to end.\nLuck begins its upward trend.\nTiming shifts in your favor now.\nSuccess arrives as fates allow.",
+      "interpretation": {
+        "general": "Period of difficulty ends, fortune improves dramatically.",
+        "business": "Business cycle turns positive, growth begins.",
+        "romance": "Relationship luck improves significantly.",
+        "health": "Health situation improves as timing becomes favorable."
+      }
+    },
+    {
+      "number": 74,
+      "title_mandarin": "飛黃騰達",
+      "title_english": "Flying Yellow, Soaring Success",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Rapid rise to heights of fame.\nSuccess and glory claim your name.\nSwift advancement without bound.\nYour reputation will resound.",
+      "interpretation": {
+        "general": "Rapid dramatic rise to success and recognition.",
+        "business": "Company growth exceeds all projections.",
+        "romance": "Relationship brings elevated social status.",
+        "health": "Energy and vitality reach peak levels."
+      }
+    },
+    {
+      "number": 75,
+      "title_mandarin": "名揚四海",
+      "title_english": "Name Famous Across Four Seas",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Your reputation spreads afar.\nKnown and respected like a star.\nFame brings opportunity and more.\nSuccess knocks at every door.",
+      "interpretation": {
+        "general": "Widespread recognition brings numerous opportunities.",
+        "business": "Brand recognition drives business growth.",
+        "romance": "Your reputation attracts quality partners.",
+        "health": "Known as healthy, vital person."
+      }
+    },
+    {
+      "number": 76,
+      "title_mandarin": "學業有成",
+      "title_english": "Academic Achievement Successful",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Studies progress with great success.\nKnowledge increases, never less.\nExcellence in learning you attain.\nEducation brings substantial gain.",
+      "interpretation": {
+        "general": "Learning endeavors highly successful.",
+        "business": "Training and development yield excellent results.",
+        "romance": "Intellectual connection with partner deepens.",
+        "health": "Learning about health leads to improvements."
+      }
+    },
+    {
+      "number": 77,
+      "title_mandarin": "揚眉吐氣",
+      "title_english": "Raising Eyebrows and Breathing Freely",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Past humiliation now reversed.\nProve your worth, no longer cursed.\nVindication sweet and clear.\nRespect and pride now reappear.",
+      "interpretation": {
+        "general": "Redemption from past difficulties, dignity restored.",
+        "business": "Business recovery proves doubters wrong.",
+        "romance": "Relationship validates your worth.",
+        "health": "Health recovery restores confidence."
+      }
+    },
+    {
+      "number": 78,
+      "title_mandarin": "滿載而歸",
+      "title_english": "Returning Fully Loaded",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Journey ends with harvest full.\nEvery goal achieved in full.\nReturning home with treasure great.\nSuccess beyond what you'd estimate.",
+      "interpretation": {
+        "general": "Endeavors yield more than expected results.",
+        "business": "Ventures return exceptional profits.",
+        "romance": "Relationship brings more joy than anticipated.",
+        "health": "Health gains exceed expectations."
+      }
+    },
+    {
+      "number": 79,
+      "title_mandarin": "化險為夷",
+      "title_english": "Transforming Danger into Safety",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Crisis averted at final hour.\nDanger transforms to show your power.\nWhat seemed dire becomes opportunity.\nTurning point brings immunity.",
+      "interpretation": {
+        "general": "Potential disasters become opportunities instead.",
+        "business": "Business crisis resolved advantageously.",
+        "romance": "Relationship problems strengthen bond.",
+        "health": "Health scare leads to improved wellness."
+      }
+    },
+    {
+      "number": 80,
+      "title_mandarin": "前程似錦",
+      "title_english": "Future Bright as Brocade",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Future unfolds in brilliant hues.\nOpportunities multiply in views.\nPath ahead shines bright and clear.\nBrilliant prospects drawing near.",
+      "interpretation": {
+        "general": "Exceptionally bright future with many opportunities.",
+        "business": "Business outlook extremely positive long-term.",
+        "romance": "Relationship future filled with promise.",
+        "health": "Long-term health outlook excellent."
+      }
+    },
+    {
+      "number": 81,
+      "title_mandarin": "德高望重",
+      "title_english": "Virtue High, Reputation Great",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Character earns deep respect.\nVirtue none can intercept.\nMoral standing brings reward.\nRespect unanimous, assured.",
+      "interpretation": {
+        "general": "Moral character brings respect and opportunities.",
+        "business": "Ethical business practices build strong reputation.",
+        "romance": "Character attracts worthy partner.",
+        "health": "Healthy lifestyle choices pay dividends."
+      }
+    },
+    {
+      "number": 82,
+      "title_mandarin": "梅花報喜",
+      "title_english": "Plum Blossoms Announce Joy",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Plum blooms herald joyful news.\nWinter's end brings happy views.\nGood tidings arrive very soon.\nJoy blossoms like flowers in June.",
+      "interpretation": {
+        "general": "Joyful news arriving soon after difficult period.",
+        "business": "Positive announcements regarding business.",
+        "romance": "Happy relationship milestones approaching.",
+        "health": "Good health news after period of concern."
+      }
+    },
+    {
+      "number": 83,
+      "title_mandarin": "喜上加喜",
+      "title_english": "Joy Upon Joy",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "One joy follows another near.\nMultiple celebrations this year.\nHappiness compounds and grows.\nBlessing after blessing flows.",
+      "interpretation": {
+        "general": "Multiple happy events occur in succession.",
+        "business": "Success leads to more success continuously.",
+        "romance": "Happy relationship events multiply.",
+        "health": "Health improvements continue accumulating."
+      }
+    },
+    {
+      "number": 84,
+      "title_mandarin": "富貴逼人",
+      "title_english": "Wealth and Honor Overwhelming",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Fortune so great it overwhelms.\nSuccess in all life's realms.\nWealth and status both immense.\nProsperity in every sense.",
+      "interpretation": {
+        "general": "Overwhelming success in material and social realms.",
+        "business": "Business success exceeds capacity to manage.",
+        "romance": "Partner brings substantial wealth or status.",
+        "health": "Vitality and wellness beyond normal levels."
+      }
+    },
+    {
+      "number": 85,
+      "title_mandarin": "雨過天青",
+      "title_english": "After Rain, Sky Clears",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Storm passes, revealing blue.\nClarity emerges, perspective new.\nDifficulties wash away clean.\nBeautiful aftermath is seen.",
+      "interpretation": {
+        "general": "Problems clear completely, revealing better situation.",
+        "business": "Business troubles resolve, improved outlook.",
+        "romance": "Conflicts cleared, relationship stronger.",
+        "health": "Illness passes, health restored fully."
+      }
+    },
+    {
+      "number": 86,
+      "title_mandarin": "扭轉乾坤",
+      "title_english": "Reversing Heaven and Earth",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Seemingly impossible feat achieved.\nTotal reversal, none believed.\nYour action changes everything.\nImpossible becomes offering.",
+      "interpretation": {
+        "general": "Dramatic reversal of seemingly hopeless situation.",
+        "business": "Failed venture becomes major success.",
+        "romance": "Impossible relationship becomes reality.",
+        "health": "Unexpected recovery from serious condition."
+      }
+    },
+    {
+      "number": 87,
+      "title_mandarin": "春風得意",
+      "title_english": "Proud in Spring Breeze",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Success brings joy and satisfaction.\nEverything brings pleasant reaction.\nConfident stride through life you take.\nHappiness in every wake.",
+      "interpretation": {
+        "general": "Period of satisfaction and confident success.",
+        "business": "Business success brings personal satisfaction.",
+        "romance": "Happy and confident in relationship.",
+        "health": "Feel energetic and satisfied with health."
+      }
+    },
+    {
+      "number": 88,
+      "title_mandarin": "雙喜臨門",
+      "title_english": "Double Happiness at the Door",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Two happy events coincide.\nDouble blessing, side by side.\nJoy multiplied when combined.\nGreater happiness you'll find.",
+      "interpretation": {
+        "general": "Two major happy events occur simultaneously.",
+        "business": "Two major business successes at once.",
+        "romance": "Wedding and other joy together.",
+        "health": "Multiple health improvements together."
+      }
+    },
+    {
+      "number": 89,
+      "title_mandarin": "魚躍龍門",
+      "title_english": "Fish Leaps Dragon Gate",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Transformative leap to higher state.\nSuccess achieved through heaven's gate.\nComplete elevation in status.\nDestiny fulfilled, none to hate us.",
+      "interpretation": {
+        "general": "Major transformation brings elevated status.",
+        "business": "Business transformation brings industry leadership.",
+        "romance": "Relationship reaches highest level of commitment.",
+        "health": "Health transformation to superior state."
+      }
+    },
+    {
+      "number": 90,
+      "title_mandarin": "桃花運旺",
+      "title_english": "Peach Blossom Luck Flourishing",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Romance and charm surround you now.\nAdmirers gather, hearts you wow.\nLove opportunities abundant.\nCharm and attraction redundant.",
+      "interpretation": {
+        "general": "Strong romantic and social attraction.",
+        "business": "Charisma helps in negotiations and networking.",
+        "romance": "Multiple romantic opportunities or deepening current love.",
+        "health": "Attractive vital energy, magnetism strong."
+      }
+    },
+    {
+      "number": 91,
+      "title_mandarin": "德才兼備",
+      "title_english": "Both Virtue and Talent Complete",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Character and skill both excel.\nBalance serves you very well.\nRespected for ability and heart.\nThis combination sets apart.",
+      "interpretation": {
+        "general": "Balance of character and competence brings respect.",
+        "business": "Ethical competence attracts best opportunities.",
+        "romance": "Partner values both your character and abilities.",
+        "health": "Balanced approach to health proves most effective."
+      }
+    },
+    {
+      "number": 92,
+      "title_mandarin": "如虎添翼",
+      "title_english": "Adding Wings to Tiger",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Already strong, now empowered more.\nNew ability makes you soar.\nAdditional advantage gained.\nSuccess cannot be constrained.",
+      "interpretation": {
+        "general": "Additional advantage enhances already strong position.",
+        "business": "New resource or skill amplifies business success.",
+        "romance": "Relationship strengthened by new element.",
+        "health": "Additional health practice enhances wellness."
+      }
+    },
+    {
+      "number": 93,
+      "title_mandarin": "笑口常開",
+      "title_english": "Smile Always Present",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Joy and laughter fill your days.\nPositive outlook always pays.\nHappiness attracts more of same.\nGood fortune follows cheerful aim.",
+      "interpretation": {
+        "general": "Positive attitude attracts good fortune continuously.",
+        "business": "Optimistic approach draws success and good relationships.",
+        "romance": "Cheerful nature attracts and maintains love.",
+        "health": "Positive attitude supports excellent health."
+      }
+    },
+    {
+      "number": 94,
+      "title_mandarin": "天降橫財",
+      "title_english": "Windfall from Heaven",
+      "type": "Superior Fortune (Shang)",
+      "verse": "Unexpected wealth falls your way.\nFinancial blessing comes to stay.\nUnanticipated gain appears.\nProsperity throughout the years.",
+      "interpretation": {
+        "general": "Unexpected financial gain from unforeseen source.",
+        "business": "Unexpected profit or lucrative opportunity appears.",
+        "romance": "Partner brings unexpected material benefits.",
+        "health": "Unexpected resources for health care available."
+      }
+    },
+    {
+      "number": 95,
+      "title_mandarin": "百事亨通",
+      "title_english": "Hundred Matters Flow Smoothly",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Every undertaking flows with ease.\nAll endeavors sure to please.\nNo obstacle can block your way.\nSuccess in everything you say.",
+      "interpretation": {
+        "general": "Complete success in all undertakings.",
+        "business": "All business activities succeed smoothly.",
+        "romance": "All aspects of relationship harmonious.",
+        "health": "All health matters resolve favorably."
+      }
+    },
+    {
+      "number": 96,
+      "title_mandarin": "金榜題名",
+      "title_english": "Name on Golden List",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Examination passed with honors high.\nSuccess and recognition nigh.\nAchievement brings prestige and more.\nOpportunities open every door.",
+      "interpretation": {
+        "general": "Major achievement brings recognition and opportunities.",
+        "business": "Business achievement earns industry recognition.",
+        "romance": "Relationship achievement brings social recognition.",
+        "health": "Health achievement gives confidence and energy."
+      }
+    },
+    {
+      "number": 97,
+      "title_mandarin": "吉星高照",
+      "title_english": "Lucky Star Shining High",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Celestial blessing from above.\nProtected by heavenly love.\nGuided by fortunate star.\nSuccess no matter where you are.",
+      "interpretation": {
+        "general": "Divine protection and guidance bring consistent success.",
+        "business": "Business protected and guided to success.",
+        "romance": "Relationship blessed and protected.",
+        "health": "Health protected, serious issues avoided."
+      }
+    },
+    {
+      "number": 98,
+      "title_mandarin": "富甲天下",
+      "title_english": "Wealthiest Under Heaven",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Wealth accumulated beyond measure.\nFinancial success beyond treasure.\nRichest fortune you'll attain.\nAbundance flows like endless rain.",
+      "interpretation": {
+        "general": "Exceptional material wealth and prosperity.",
+        "business": "Business empire reaches dominant position.",
+        "romance": "Partner extremely wealthy or brings great fortune.",
+        "health": "Abundant resources for optimal health care."
+      }
+    },
+    {
+      "number": 99,
+      "title_mandarin": "福壽雙全",
+      "title_english": "Fortune and Longevity Both Complete",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Long life blessed with happiness.\nWealth and health in completeness.\nProsperity and longevity combined.\nPerfect fortune of every kind.",
+      "interpretation": {
+        "general": "Complete blessing of wealth, health, and long life.",
+        "business": "Long-term sustainable success and prosperity.",
+        "romance": "Long-lasting happy relationship with prosperity.",
+        "health": "Excellent health promising long vital life."
+      }
+    },
+    {
+      "number": 100,
+      "title_mandarin": "十全十美",
+      "title_english": "Perfect Ten in All Ways",
+      "type": "Supreme Fortune (Shang Shang)",
+      "verse": "Absolute perfection achieved.\nEvery wish completely received.\nNothing lacking, all complete.\nPerfect fortune cannot be beat.",
+      "interpretation": {
+        "general": "Absolute perfection in all aspects of life.",
+        "business": "Complete business success without any flaw.",
+        "romance": "Perfect relationship in every possible way.",
+        "health": "Perfect health in all aspects."
+      }
+    }
+  ]
+}
