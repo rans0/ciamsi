@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion'
 import { Fortune } from '../../types/fortune'
 import { isGoodFortune } from '../../utils/fortune'
 
@@ -13,6 +13,7 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
   const [hasRevealed, setHasRevealed] = useState(false)
 
   const shouldFlipBowl = useMemo(() => isGoodFortune(fortuneData), [fortuneData])
+  const prefersReducedMotion = useReducedMotion()
 
   const handleReveal = () => {
     if (hasRevealed) return
@@ -70,13 +71,16 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
           tabIndex={0}
           role="button"
           aria-label="Tap to reveal fortune"
+          aria-live="polite"
+          aria-atomic="true"
         >
           <motion.div
             className="bowl-pair"
             animate={{
-              rotateX: hasRevealed && shouldFlipBowl ? 180 : 0
+              rotateX: hasRevealed && shouldFlipBowl && !prefersReducedMotion ? 180 : 0,
+              opacity: hasRevealed ? 1 : 0.9
             }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
+            transition={{ duration: prefersReducedMotion ? 0 : 0.8, ease: "easeInOut" }}
             style={{ transformStyle: 'preserve-3d' }}
           >
             <motion.div
