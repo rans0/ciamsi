@@ -158,17 +158,6 @@ export function Validation({ fortuneNumber, fortuneData, onValidated }: Validati
               transition={{ duration: isThrowing ? 0.8 : 0.2 }}
             />
           </motion.div>
-
-          {hasRevealed && (
-            <motion.div
-              className="fortune-reveal"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: shouldFlipBowl ? 0.5 : 0.3 }}
-            >
-              <span className="reveal-number">#{fortuneNumber}</span>
-            </motion.div>
-          )}
         </motion.div>
       </div>
     </motion.div>
