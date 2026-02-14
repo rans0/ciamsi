@@ -1,0 +1,10 @@
+.stage-controller {
+  text-align: center;
+  padding: 2rem;
+}
+
+.stage-controller h2 {
+  font-family: var(--font-display);
+  color: var(--color-gold);
+  margin-bottom: 1rem;
+}
