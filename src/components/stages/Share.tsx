@@ -22,11 +22,10 @@ export function Share({ fortuneData, onRestart }: ShareProps) {
       const html2canvas = (await import('html2canvas')).default
       const canvas = await html2canvas(cardRef.current, {
         backgroundColor: '#800000',
-        scale: 2,
         useCORS: true,
         allowTaint: true,
         logging: false
-      })
+      } as any)
 
       const link = document.createElement('a')
       link.download = `ciamsi-fortune-${fortuneData.number}.png`
