@@ -1,0 +1,46 @@
+:root {
+  color-scheme: dark;
+  --color-maroon: #800000;
+  --color-gold: #D4AF37;
+  --color-cream: #F5E6D3;
+  --color-black: #1a1a1a;
+  --font-display: 'Cinzel', serif;
+  --font-body: 'Cormorant Garamond', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-black);
+  color: var(--color-cream);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-family: var(--font-display);
+  color: var(--color-gold);
+  font-size: clamp(2rem, 5vw, 4rem);
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
