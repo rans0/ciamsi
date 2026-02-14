@@ -2,6 +2,7 @@
 @import './components/entrance.css';
 @import './components/shaking.css';
 @import './components/validation.css';
+@import './components/reveal.css';
 
 :root {
   color-scheme: dark;
