@@ -60,7 +60,6 @@ export function Share({ fortuneData, onRestart }: ShareProps) {
 
       console.log('Capture successful')
       setIsGenerating(false)
-      alert('Fortune card saved!')
     } catch (error) {
       console.error('Save failed:', error)
       setIsGenerating(false)
