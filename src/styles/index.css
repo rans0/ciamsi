@@ -3,6 +3,7 @@
 @import './components/shaking.css';
 @import './components/validation.css';
 @import './components/reveal.css';
+@import './components/share.css';
 
 :root {
   color-scheme: dark;
