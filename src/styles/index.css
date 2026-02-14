@@ -1,5 +1,6 @@
 @import './components/stage-controller.css';
 @import './components/entrance.css';
+@import './components/shaking.css';
 
 :root {
   color-scheme: dark;
